@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Móveis Claro | Camas, Mesas e Som</title>
+  <style>
+    /* Estilos Gerais */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f7fb;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0b5ed7;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      color: #0b5ed7;
+      margin-bottom: 30px;
+      border-bottom: 2px solid #0b5ed7;
+      display: inline-block;
+      width: 100%;
+      padding-bottom: 10px;
+    }
+
+    /* Grid de Produtos */
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+      text-align: center;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    /* Botões */
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 25px;
+      background: #0b5ed7;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #0849a3;
+    }
+
+    .btn-whatsapp {
+      background: #25d366;
+    }
+
+    .btn-whatsapp:hover {
+      background: #128c7e;
+    }
+
+    .contact-info {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    footer {
+      background: #0b5ed7;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.8rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Móveis Claro</h1>
+  <p>Camas, Mesas e Caixas de Som - Qualidade e Preço Justo</p>
+  <a class="btn btn-whatsapp" href="https://wa.me/554588040561">Falar no WhatsApp</a>
+</header>
+
+<section>
+  <h2>Nossa Galeria</h2>
+  <div class="services">
+    
+    <div class="card">
+      <img src="foto1.jpg" alt="Cama casal">
+      <h3>Camas</h3>
+      <p>Modelos confortáveis e resistentes.</p>
+      <p>Preço: <strong>R$ 650,00</strong></p>
+      <a class="btn" href="https://wa.me/554588040561?text=Olá,%20tenho%20interesse%20nas%20camas">Comprar no WhatsApp</a>
+    </div>
+
+    <div class="card">
+      <img src="foto4.jpg" alt="Mesa com cadeiras">
+      <h3>Várias Mesas</h3>
+      <p>Diversas opções de mesas para sua casa.</p>
+      <p>Preço: <strong>R$ 700,00</strong></p>
+      <a class="btn" href="https://wa.me/554588040561?text=Olá,%20tenho%20interesse%20nas%20mesas">Ver Modelos</a>
+    </div>
+
+    <div class="card">
+      <img src="som.jpg" alt="Caixa de Som">
+      <h3>Caixas de Som</h3>
+      <p>Alta qualidade sonora para seu ambiente.</p>
+      <p>Status: <strong>Disponível</strong></p>
+      <a class="btn" href="https://wa.me/554588040561?text=Olá,%20tenho%20interesse%20nas%20caixas%20de%20som">Consultar Valor</a>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>Sobre Nós</h2>
+  <div class="card">
+    <p>
+      A <strong>Móveis Claro</strong> oferece produtos de alta qualidade, com excelente acabamento e o melhor custo-benefício. 
+      Contamos com uma linha completa de camas, grande variedade de mesas e sistemas de som. 
+      Estamos localizados em Cascavel - PR, prontos para melhor atendê-lo.
+    </p>
+  </div>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <div class="contact-info">
+    <p><strong>Cidade:</strong> Cascavel - PR</p>
+    <p><strong>Endereço:</strong> Rua Erechim, nº 1906</p>
+    <p><strong>WhatsApp:</strong> (45) 8804-0561</p>
+    <a class="btn btn-whatsapp" href="https://wa.me/554588040561">Enviar Mensagem Agora</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 - Móveis Claro | Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
+
